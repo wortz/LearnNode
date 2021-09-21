@@ -13,7 +13,7 @@ var usersRouter = require('./routes/users');
 var catalogRouter = require('./routes/catalog');  //Import routes for "catalog" area of site
 
 var app = express();
-
+//noway
 //Set up mongoose connection
 var mongoose = require('mongoose');
 var mongoDB = process.env.DB_INFO;
